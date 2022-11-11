@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"
+        integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="container-fluid text-center text-white bg-dark p-3">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-3">
+                <h2>Search for a city:</h2>
+                <form>
+                    <div class="form-group">
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="user-input"
+                    aria-describedby="userInput"
+                    />
+                    <button id="form-sbt" type="submit" class=" btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </aside>
+
+            <section id="current-forecast">
+            </section>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    </body>
+</html>
