@@ -7,8 +7,7 @@
 ![Technologies](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Table of Contents  
--[Project Description](#description)  
--[Installation](#installation)  
+-[Project Description](#description)    
 -[User Story](#user-story)  
 -[Acceptance Criteria](#acceptance-criteria)  
 -[Mock Up](#mock-up)  
@@ -17,47 +16,26 @@
 
 ## Description
 
-This is a command-line application built from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
-
-## Installation
-***Requirments***
-
-[Node.js](https://nodejs.org/en/) | [Inquirer](https://www.npmjs.com/package/inquirer) | [MySQL](https://www.npmjs.com/package/mysql2)
-
-***Once Installed:***
-
-1. Clone the Repository on to your machine.
-2. Open the terminal and ensure you are in the right file path.
-3. Run the command ```npm i``` to download the packages.
-4. Run command ```npm i console.table``` to download package.
-4. Then run the command ```npm start``` to run the application.
+This application allows the user to search for a weather forecast for any city in the world. It will save searches for easy access.
 
 ## User Story
 ```
-AS A business owner  
-I WANT to be able to view and manage the departments, roles, and employees in my company  
-SO THAT I can organize and plan my business  
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly  
 ```
 
 ## Acceptance Criteria
 ```
-GIVEN a command-line application that accepts user input
-WHEN I start the application
-THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-WHEN I choose to view all departments
-THEN I am presented with a formatted table showing department names and department ids
-WHEN I choose to view all roles
-THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-WHEN I choose to view all employees
-THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-WHEN I choose to add a department
-THEN I am prompted to enter the name of the department and that department is added to the database
-WHEN I choose to add a role
-THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-WHEN I choose to add an employee
-THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-WHEN I choose to update an employee role
-THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
 ```
 
 ## Mock Up
