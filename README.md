@@ -4,7 +4,7 @@
 
 ![Technologies](https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
-![Technologies](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 ## Table of Contents  
 -[Project Description](#description)    
