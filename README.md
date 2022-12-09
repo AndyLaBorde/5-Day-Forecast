@@ -40,15 +40,11 @@ THEN I am again presented with current and future conditions for that city
 
 ## Mock Up
 
-// Under Construction //
+![Alt text](assets/images/proj_screenshot.png)
 
-## Walkthrough
+## Deployed Application
 
-// Under Construction //
 
-## Contributions
-
-// N/A //
 
 ## License
 
